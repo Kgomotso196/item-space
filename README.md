@@ -14,20 +14,17 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [⚠️ Known Limitation](#limitations)
 - [📝 License](#license)
 
 
@@ -88,9 +85,9 @@ In order to run this project you need:
 
 ### Setup
 
-- Clone the repository to your desired folder:
-`git clone https://github.com/Kgomotso196/item-space.git`
-`cd item-space`
+- Clone the repository to your desired folder and check to the directory:
+`git clone https://github.com/Kgomotso196/item-space.git` and 
+`cd item-space` respectively
 
 ### Install
 
@@ -111,7 +108,7 @@ In order to run this project you need:
 - To run linters, run the following command:
 `npm run lint`
 
-- To run linters, run the following command:
+- To run tests, run the following command:
 `npm test`
 
 ### Deployment
@@ -163,6 +160,13 @@ If you like this project, please give it a ⭐ and share it with others.
 - Material UI documentation for design and components.
 - AI Assistance: I used Google Gemini specifically to get guidance on structuring the add/edit/delete logic with server integration and for writing unit/integration tests. This helped me think through edge cases and proper error handling, but all design, layout, styling, and overall implementation decisions were done by me.
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⚠️ Known Limitation <a name="limitations"></a>
+
+- Deployment to Netlify wasn't working properly; the project could not be deployed.  
+- Some advanced styling (e.g., animations and responsiveness) could not be completed due to time constraints.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
