@@ -85,7 +85,7 @@ In order to run this project you need:
 
 ### Setup
 
-- Clone the repository to your desired folder and check to the directory:
+- Clone the repository on your terminal to your desired folder and check to the directory:
 `git clone https://github.com/Kgomotso196/item-space.git` and 
 `cd item-space` respectively
 
@@ -126,8 +126,8 @@ You can deploy this project using:
 
 👤 **Author1**
 
-- GitHub: [@kgomotso196](https://github.com/Kgomotso196)
-- LinkedIn: [Kgomotso Nacane](https://www.linkedin.com/in/kgomotso-nacane)
+- GitHub: [Kgomotso (Troos) Nacane](https://github.com/Kgomotso196)
+- LinkedIn: [Kgomotso (Troos) Nacane](https://www.linkedin.com/in/kgomotso-nacane)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
