@@ -111,7 +111,7 @@ In order to run this project you need:
 - To run linters, run the following command:
 `npm run lint`
 
-- To run linters, run the following command:
+- To run tests, run the following command:
 `npm test`
 
 ### Deployment
