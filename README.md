@@ -124,7 +124,7 @@ You can deploy this project using:
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Author1**
+👤 **Troos**
 
 - GitHub: [Kgomotso (Troos) Nacane](https://github.com/Kgomotso196)
 - LinkedIn: [Kgomotso (Troos) Nacane](https://www.linkedin.com/in/kgomotso-nacane)
