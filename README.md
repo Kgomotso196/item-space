@@ -31,7 +31,7 @@
 - [📝 License](#license)
 
 
-# 📖 [MY_PORTFOLIO] <a name="about-project"></a>
+# 📖 ITEM-SPACE <a name="about-project"></a>
 
 > This project is a small full-stack application to manage a list of items. It demonstrates a minimal backend with Express, a frontend with React and Material UI, and includes features like adding, deleting, editing, and filtering items with validations.
 
