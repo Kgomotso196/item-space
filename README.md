@@ -177,7 +177,7 @@ If you like this project, please give it a ⭐ and share it with others.
 
 ## ⚠️ Known Limitation <a name="limitations"></a>
 
-- Deployment to Netlify wasn't working properly; the project could not be deployed.  
+- There’s no database connection; data doesn’t persist after refresh since the challenge required no DB.
 - Some advanced styling (e.g., animations and responsiveness) could not be completed due to time constraints.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
