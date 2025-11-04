@@ -19,6 +19,9 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+- [Demo](#demo)
+  - [Video Demo](#video)
+  - [Live Link](#link)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -120,6 +123,15 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Demo <a name="demo"></a>
+
+### Video Demo
+- See live video [here](https://drive.google.com/file/d/19gUPfrh_B4nfY1Ha0hfoVvzFMo17yo4R/view?usp=sharing)
+
+### Live Link
+- See the web app live [here](https://troos-item-space.netlify.app)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
