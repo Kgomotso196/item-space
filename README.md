@@ -7,7 +7,6 @@
 
 </div>
 
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -125,11 +124,11 @@ You can deploy this project using:
 
 ## Demo <a name="demo"></a>
 
-### Video Demo
+### Video Demo <a name="video"></a>
 
 - See live video [here](https://drive.google.com/file/d/19gUPfrh_B4nfY1Ha0hfoVvzFMo17yo4R/view?usp=sharing)
 
-### Live Link
+### Live Link <a name="link"></a>
 
 - See the web app live [here](https://troos-item-space.netlify.app)
 
