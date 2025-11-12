@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { API_URL } from "./config";
 import {
   Table,
   TableBody,
@@ -22,7 +23,7 @@ function App() {
   const [editingName, setEditingName] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/items")
+    fetch(`${API_URL}/api/items`)
       .then((res) => res.json())
       .then((data) => setItems(data));
   }, []);
@@ -49,7 +50,7 @@ function App() {
 
     setError("");
 
-    const res = await fetch("http://localhost:3000/api/items", {
+    const res = await fetch(`${API_URL}/api/items`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name: trimmedName }),
@@ -63,7 +64,7 @@ function App() {
   };
 
   const deleteItem = async (id: number) => {
-    await fetch(`http://localhost:3000/api/items/${id}`, { method: "DELETE" });
+    await fetch(`${API_URL}/api/items/${id}`, { method: "DELETE" });
     setItems((prev) => prev.filter((item) => item.id !== id));
   };
 
@@ -85,11 +86,12 @@ function App() {
     )
       return setError("This item already exists");
 
-    const res = await fetch(`http://localhost:3000/api/items/${id}`, {
+    const res = await fetch(`${API_URL}/api/items/${id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name: editingName.trim() }),
     });
+
     const updatedItem = await res.json();
     setItems((prev) =>
       prev.map((item) => (item.id === id ? updatedItem : item))

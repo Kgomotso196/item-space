@@ -3,6 +3,10 @@ import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import App from "../App";
 
+jest.mock('../config', () => ({
+  API_URL: "http://localhost:3000"
+}));
+
 beforeEach(() => {
   (global as unknown as { fetch: jest.Mock }).fetch = jest.fn(() =>
     Promise.resolve({ json: () => Promise.resolve([]) })

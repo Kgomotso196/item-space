@@ -10,7 +10,7 @@
     "start": "node dist/server.js",
     "test": "jest --watchAll",
     "test:ci": "jest",
-    "lint": "eslint . --ext .ts,.tsx"
+    "lint": "eslint 'src/**/*.{ts,tsx}'"
   },
   "repository": {
     "type": "git",
@@ -42,7 +42,7 @@
     "@types/express": "^5.0.5",
     "@types/jest": "^30.0.0",
     "@types/jsdom": "^27.0.0",
-    "@types/node": "^24.9.2",
+    "@types/node": "^24.10.1",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "@types/supertest": "^6.0.3",
